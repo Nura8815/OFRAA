@@ -1,0 +1,26 @@
+//
+//  ContentView.swift
+//  ofra.
+//
+//  Created by nura on 12/06/1444 AH.
+//
+
+import SwiftUI
+
+struct picker1: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+struct picker1_Previews: PreviewProvider {
+    static var previews: some View {
+        picker1()
+    }
+}
